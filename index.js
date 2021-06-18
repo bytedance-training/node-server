@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 
-app.get('/', function (req, res) {
+app.get('/api/test', function (req, res) {
   res.json({
     status: 0,
     errMsg: '',
